@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Programação</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/programming.jpg">
+                <h2>O Conceito de Programação</h2>
+                    <br>
+                    <p>O que é programação? O conceito mais básico, e que deve ser pontuado para os estudantes, é o que, de fato, é a programação.</p> 
+                    <br>
+                    <p>Esse termo se refere a uma atividade de planejamento, elaboração, escrita e desenvolvimento de programas, seja de computadores, seja de tablets, celulares ou outros equipamentos eletrônicos.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1vryf5xAsu9UdzFVBcRgYVMM14vJwlfFW/view?usp=sharing"><h4>Apostila Lógica de Programação </h4></a>
+                            <a href="https://drive.google.com/file/d/1-ruJkHKHgGS-wCgLyrY5uTdP61_WZlFS/view?usp=sharing"><h4>EBook Lógica de Programação para Iniciantes - Gustavo Furtado de Oliveira Alves</h4></a>
+                            <a href="https://drive.google.com/file/d/1r5_o4BpHJ6Xq8D-0Ve8C36pCUEbfh7HF/view?usp=sharing"><h4>Apostila de Introdução a Linguagem C - Marcela Rocha Tortueli de Sá</h4></a> 
+                            <a href="https://drive.google.com/file/d/18C1kdxf-n-9YFK0V28M61G9ijJg4-4Xi/view?usp=sharing"><h4>Apostila de Linguagem C (Conceitos Básicos) - Prof Luiz Gustavo Almeida Martins</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

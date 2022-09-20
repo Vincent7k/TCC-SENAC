@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Administração de Redes</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/adm redes.jpg">
+                <h2>O que é Administração de Redes</h2>
+                    <br>
+                    <p>Elaboram projetos de redes (física e lógica), analisam e validam projetos elaborados por terceiros, administram os endereços IP e nomes de domínio da unidade, configuram e valida o gateway/roteador de acesso à Internet e buscam constantemente a otimização dos recursos computacionais, garantindo o bom uso e a segurança dos recursos. Também provê os serviços corporativos de autenticação, backup, e-mail e impressão, entre outros, para a comunidade da FT.</p>
+                    <br>
+                    <p>Os profissionais  envolvidos nessa área tem como atribuição principal o gerenciamento da rede de computadores da faculdade, bem como dos recursos computacionais relacionados direta ou indiretamente, conforme as recomendações da Resolução GR 052/2012. Instalação, configuração e manutenção dos sistemas operacionais e de serviços de infra-estrutura de TI também estão presentes nas suas tarefas. Alem disso estabelecem um elo de ligação com o CCUEC (centro de computação- Unicamp) nas questões técnicas e administrativas da rede local e da UniNet.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1yuFsZ474g0-lKREHdMWtqRtJ_Zu0LW7e/view?usp=sharing"><h4>Administração de Redes Linux - Alexandre Folle de Menezes</h4></a>
+                            <a href="https://drive.google.com/file/d/1bDbUtfjmoGmB8gUCkXXU76HVDGz1aP2C/view?usp=sharing"><h4>Gerência, Segurança e Monitoramento de Redes - Odilson Tadeu Valle</h4></a>
+                            <a href="https://drive.google.com/file/d/1ii_KEW3WhZnTArqc_RQw6MjHtkig127v/view?usp=sharing"><h4>Guia do Administrador de Sistema Linux</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

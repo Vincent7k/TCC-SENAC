@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Engenharia de Software</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/Engenharia de software.jpg">
+                <h2>Engenharia de Software</h2>
+                    <p>O que é Engenharia de Software?</p>
+                    <br>
+                    <p>A Engenharia de Software capacita as pessoas com a utilização de teorias, técnicas e ferramentas da Ciência da Computação para produção e desenvolvimento de sistemas. Por meio da análise, coleta e processamento de dados, ainda identificam potenciais falhas nesses produtos e criam soluções de alta performance.</p> 
+                    <br>
+                    <p>O objetivo dessa Engenharia é acompanhar as inovações e ensinar aos alunos as melhores técnicas e modelos a serem seguidos. Com esse conhecimento adquirido em uma graduação, o profissional tem diversas oportunidades de atuação no mercado, como veremos a seguir.</p>
+                    <br>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/17UYw12TmCsCLkJGKBCDq9DnZiy-WK19R/view?usp=sharing"><h4>Engenharia de Software - Elisamara de Oliveira</h4></a>
+                            <a href="https://drive.google.com/file/d/1nD1BV-3irRpqUHO78wZB54Sw48f-nSrJ/view?usp=sharing"><h4>Apostila da Disciplina de Engenharia de Software - Prof. Cleber Nardelli </h4></a>
+                            <a href="https://drive.google.com/file/d/1xTlf8XyWaWYQ44Jj21p-oZWCkDWpS6jM/view?usp=sharing"><h4>Engenharia de Software</h4></a> 
+                            <a href="https://drive.google.com/file/d/1-EbAX_tlKlUMX3Qdp6bYvfkhnQzHzexa/view?usp=sharing"><h4>Introdução à Engenharia De Software e à Qualidade de Software</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

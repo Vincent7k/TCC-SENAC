@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Segurança da Informação</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/Segurança.jpg">
+                <h2>Segurança da Informação</h2>
+                    <p>O que é Segurança da Informação?</p>
+                    <br>
+                    <p>O termo é usado para se referir à defesa de dados e à prática que assegura que informações sigilosas possam ser acessadas somente por aqueles a quem estas se referem (em outras palavras, seus responsáveis de direito).</p> 
+                    <br>
+                    <p>A segurança da informação é uma grande aliada de empresas, pois é responsável por evitar que qualquer pessoa distribua, de forma indevida, dados sobre vendas, margem de lucro, concorrentes, entre outras. Em um mundo no qual diversas tarefas são realizadas ao mesmo tempo e e-mails confidenciais podem ser enviados em apenas um clique, é fundamental que exista proteção para eventuais erros.</p>
+                    <br>
+                    <p>Nesses casos, a Segurança da Informação permite construir políticas e métodos que são empregados na circulação de dados confidenciais e são controlados pelo departamento de Tecnologia da Informação (TI) de uma empresa.</p>
+                    <br>
+                    <p>Geralmente, programas são instalados para garantir que os computadores serão utilizados somente para fins de trabalho. Além disso, é imprescindível garantir que os funcionários não baixarão nenhum tipo de programa no computador, uma vez que um simples bug ou malware pode colocar tudo a perder. Por isso, corporações preveem punições rigorosas (e até o risco de demissão) para qualquer colaborador que quebrar as regras de uso das informações, quer estejam em um e-mail com relatórios sobre vendas, quer em planilhas sobre a porcentagem dos lucros ou em apresentações salvas no computador.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1PXL9Wy210ZH5V-3bp-uDF6RBhIkTsP5l/view?usp=sharing"><h4>Apostila Segurança da informação</h4></a>
+                            <a href="https://drive.google.com/file/d/1fA2-N1kqszOApjGx8VdoyPpJtGfuEQAA/view?usp=sharing"><h4>Apostila Contagem Regressiva Até Zero</h4></a>
+                            <a href="https://drive.google.com/file/d/1t133vxHQS-WyWcVLqylbEXvKDRqSy9sg/view?usp=sharing"><h4>Segurança da Informação por Dorival Moreira Machado Junior</h4></a> 
+                            <a href="https://drive.google.com/file/d/1twOCnaDMWTqaNx0IPrw6qMUH2YC3Xp4o/view?usp=sharing"><h4>Segurança da Informação por Pedro Tenório</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

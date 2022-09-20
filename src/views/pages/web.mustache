@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Programador WEB</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/Programador WEB.jpg">
+                <h2>Programador WEB</h2>
+                    <p>O que é um Programador WEB?</p>
+                    <br>
+                    <p>Esse profissional é responsável por desenvolver sites, portais e aplicações relacionadas ao ambiente da internet. Geralmente, esses serviços são acessados por meio de um navegador e ficam hospedados em servidores web.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1rOdlngPdKW92JbKU7eOvQbU72wDrLDoW/view?usp=sharing"><h4>HTML:5 e CSS:3. Domine a a Web</h4></a>
+                            <a href="https://drive.google.com/file/d/1J2-WthqMa4jrOX2P6bAXwXlPU1DT2xdi/view?usp=sharing"><h4>Desenvolvimento WEB com HTML, CSS e JavaScript</h4></a>
+                            <a href="https://drive.google.com/file/d/10nSSxKif0_UbnaiEEsEGBhbxNM_B3W4T/view?usp=sharing"><h4>html:5</h4></a> 
+                            <a href="https://drive.google.com/file/d/1kSYgAvrDoBf5WwU-Tg8nutrortOxr58E/view?usp=sharing"><h4>css:3</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

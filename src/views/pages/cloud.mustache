@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Cloud Computing</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/Cloud.jpg">
+                <h2>Cloud Computing</h2>
+                    <p>O que é um Cloud Computing (Computação em Nuvem)?</p>
+                    <br>
+                    <p>De uma forma simples, cloud computing, ou computação na nuvem, é uma tecnologia que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da internet. É uma alternativa para você acessar dados importantes de qualquer computador, em qualquer lugar.</p> 
+                    <br>
+                    <p>A Salesforce é pioneira em cloud computing para grandes negócios e também para empresas de pequeno e médio porte. Este mecanismo oferece aos indivíduos e às empresas a capacidade de um pool de recursos digitais com boa manutenção, seguro, de fácil acesso e sob demanda como servidores, armazenamento de dados e software de aplicativo.</p>
+                    <br>
+                    <p>O cloud computing proporciona às empresas mais flexibilidade em relação a dados e informações, que podem ser acessados a qualquer hora. É ideal para empresas com sedes ao redor do mundo ou em diferentes ambientes de trabalho, abrangendo locais remotos. Com o mínimo de gerenciamento, todos os elementos de software da computação na nuvem podem ser dimensionados sob demanda: você precisa apenas de uma conexão à internet.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/17W5U4-8S_BCuyF3het_5Np1x7FIqLvjv/view?usp=sharing"><h4>Computação em Nuvem: Um Estudo de caso para a Implementação no CCET - Tiago Ribeiro da Silva Melo</h4></a>
+                            <a href="https://drive.google.com/file/d/1dj9NbuoxEwUVKuP7Yf0IS-6zN_sCVsun/view?usp=sharing"><h4>Cloud Computing - Andrêza Leite</h4></a>
+                            <a href="https://drive.google.com/file/d/1LWRV_mjLwvvq9l-irYIayxiw9WhyNWqq/view?usp=sharing"><h4>Computação em Nuvem - Esférica Tecnologica</h4></a> 
+                            <a href="https://drive.google.com/file/d/1MyOesOCp7gsShE2LZXqX73bXISZpT5gU/view?usp=sharing"><h4>Computação em Nuvem, Utilizando Como Estudo de Caso um Sistema Para Clube de Lazer - Guilherme Vinicius Munhoz</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

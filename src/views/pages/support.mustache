@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Suporte Tecnico</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/suporte.jpg">
+                <h2>Suporte Tecnico</h2>
+                    <p>O que é Suporte Tecnico?</p>
+                    <br>
+                    <p>O suporte técnico é um setor de atendimento voltado à área técnica de algum produto ou serviço. Ou seja, é um setor responsável por oferecer assistência técnica à infraestrutura de TI de uma empresa ou pessoa física.</p> 
+                    <br>
+                    <p>Você certamente já precisou contactar um serviço de suporte ou assistência técnica ao identificar um problema no seu celular ou notebook, certo?</p>
+                    <br>
+                    <p>É a mesma ideia, porém, como as empresas estão cada vez mais dependentes da área de TI e pode ser caro contratar e treinar uma equipe interna para esta função, muitas organizações optam por contratar empresas terceirizadas para realizar o serviço de suporte técnico.</p>
+                    <br>
+                    <p>Isso inclui serviços de instalação, manutenção, ajustes, reparos e atualizações de sistemas, além de fornecimento de peças de reposição.</p>
+                    <br>
+                    <h3>Suporte Técnico x Atendimento ao Cliente</h3>
+                    <br>
+                    <p>O suporte técnico e o atendimento ao cliente são departamentos que precisam andar juntos e são comumente confundidos, porém, eles não são a mesma coisa.</p>
+                    <br>
+                    <p>O atendimento ao cliente é o responsável pelo primeiro contato com o cliente, por compreender a demanda, conquistar o cliente e repassar os problemas ao setor responsável para que sejam solucionados de forma coordenada.</p>
+                    <br>
+                    <p>Esse encaminhamento é realizado para o suporte técnico. O setor que irá efetivamente corrigir o problema, seja ele de baixa, média, ou alta complexidade, em cada um de seus níveis de atendimento e suporte.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1WSZ6PZPXHDZmc0XTXufymYAAIbvp5ZGS/view?usp=sharing"><h4>Apostila Montagem e manutenção de Computadores - William Rezende</h4></a>
+                            <a href="https://drive.google.com/file/d/1HY4N-b9nCiX4H__OXmb1FzvFPnb5C9hI/view?usp=sharing"><h4>Manutenção e Configuração de Computadores - Senac</h4></a>
+                            <a href="https://drive.google.com/file/d/1oRv3RD4aOlcqh3iayUu-jAY8pPBswpq2/view?usp=sharing"><h4>Curso e Manutenção de Computador - Janaina Silva de Souza</h4></a> 
+                            <a href="https://drive.google.com/file/d/1293XIVH9sE-VDGSy14WIaDMu9_utF4-J/view?usp=sharing"><h4>Curso Avançado e Montagem de Computadores</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

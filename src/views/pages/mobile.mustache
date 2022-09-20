@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Programação Mobile</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/Programador mobile.jpg">
+                <h2>O Conceito de Programação Mobile</h2>
+                    <br>
+                    <p>Um desenvolvedor mobile é uma parte criativo e outra um grande resolvedor de problemas. Esse profissional é responsável por atuar, junto a uma equipe, no desenvolvimento de aplicativos ou sistemas para dispositivos móveis, seja programando de forma nativa ou por meio de outras linguagens.</p> 
+                    <br>
+                    <p>Para criar um app, por exemplo, são necessárias várias etapas, e é o desenvolvedor que precisa ficar responsável por todas elas. Ou seja, caber a ele:</p>
+                    <br>
+                    <p>
+                        Refletir sobre as necessidades que o aplicativo deve sanar — entrevistas com o público-alvo acabam sendo uma necessidade;
+                        <br>
+                        Desenvolver o app de ponta a ponta, sempre pensando na boa experiência do usuário;
+                        <br>
+                        Idealizar a arquitetura, as ferramentas e os recursos que o aplicativo deve conter;
+                        <br>
+                        Realizar os testes e configurações até que ele esteja pronto para o grande público.
+                    </p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/12MHQZFGZFqEzOEcv1DyXFfWLpkZhFnI4/view?usp=sharing"><h4>Meu Primeiro APP de Android - Luiz Tools</h4></a>
+                            <a href="https://drive.google.com/file/d/1E4ON1BU3nY3t2Z3QAW4aKWFYt_KVQMnl/view?usp=sharing"><h4>Android - Desenvolvendo Aplicativos para dispositivos móveis - Lucas Medeiros de Freitas</h4></a>
+                            <a href="https://drive.google.com/file/d/1EWS86-zlWqs3YgwfYjIlUKVIOwKAwrlz/view?usp=sharing"><h4>Introdução ao Android</h4></a> 
+                            <a href="https://drive.google.com/file/d/14xQPt-SD9xdRk-oB3NKnAHlmWamBx-Fk/view?usp=sharing"><h4>Apostila de Android - Programando Passo A Passo</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

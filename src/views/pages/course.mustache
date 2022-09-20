@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        {{>partials/header}}
+
+       <h1>Cursos</h1>
+
+    </section>
+
+    <!------ Course ------>
+
+   <section class="course">
+    <h1>Cursos e materiais que fornecemos a você!</h1>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Material de Apoio</h3>
+            <p>Disponibilizamos material de apoio com PDF e livros de forma grátuita.</p>
+        </div>
+        <div class="course-col">
+            <h3>Video Aulas</h3>
+            <p>Diversas video aulas com profissionais que entedem sobre o assunto.(Em breve...)</p>
+        </div>
+        <div class="course-col">
+            <h3>Atualizaões Globais</h3>
+            <p>Fique sabendo sobre as atualizações sobre diversos assuntos relacionados a tecnologia aqui e no mundo todo!(Em breve...)</p>
+        </div>
+        
+    </div>
+
+</section>
+
+<!---facilities--->
+
+<section class="facilities">
+    <h1>Cursos</h1>
+        <p>Veja o que oferecemos!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <a href="security"><img src="/images/Segurança.jpg"></a>
+                <h3>Segurança da informação</h3>
+                <p>A segurança da informação, às vezes abreviada para InfoSec, é a prática de proteger as informações mitigando os riscos das informações. Faz parte da gestão de risco da informação.</p>
+            </div>
+            <div class="facilities-col">
+                <a href="support"><img src="/images/Suporte.jpg"></a> 
+                <h3>Suporte Técnico</h3>
+                <p>O suporte técnico é um serviço prestado pelas empresas para aconselhar e auxiliar os usuários cadastrados em questões relativas aos seus produtos técnicos. </p>
+            </div>
+            <div class="facilities-col">
+                <a href="programming"><img src="/images/programming.jpg"></a>
+                <h3>Programação</h3>
+                <p>A programação de computadores é o processo de realizar uma computação específica, geralmente projetando e construindo um programa de computador executável. </p>
+            </div>
+        </div>
+</section>
+<section class="facilities2">
+    <div class="row">
+        <div class="facilities-col">
+            <a href="quality"><img src="/images/Qualidade.jpg"></a>
+            <h3>Qualidade de Software</h3>
+            <p>A qualidade de software refere-se a duas noções relacionadas, mas distintas: A qualidade funcional do software reflete quão bem ele está em conformidade com um determinado projeto, com base em requisitos ou especificações funcionais.</p>
+        </div>
+        <div class="facilities-col">
+            <a href="management"><img src="/images/adm redes.jpg"></a>
+            <h3>Administração de Redes</h3>
+            <p>Um administrador de rede é a pessoa designada em uma organização cuja responsabilidade inclui a manutenção de infraestruturas de computadores com ênfase em redes locais até redes de longa distância.</p>
+        </div>
+        <div class="facilities-col">
+            <a href="mobile"><img src="/images/Programador mobile.jpg"></a>
+            <h3>Programação Mobile</h3>
+            <p>Executa a manutenção dos sistemas, fazendo eventuais correções necessárias, visando atender às necessidades dos usuários. Desenvolve trabalhos de montagem, depuração e testes de programas, executando serviços de manutenção nos programas já desenvolvidos.</p>
+        </div>
+    </div>
+        
+</section>
+<section class="facilities3">
+    <div class="row">
+        <div class="facilities-col">
+            <a href="engineering"><img src="/images/Engenharia de software.jpg"></a>
+            <h3>Engenharia de Software</h3>
+            <p>A engenharia de software é uma abordagem sistemática de engenharia para o desenvolvimento de software. Um engenheiro de software é uma pessoa que aplica os princípios da engenharia de software para projetar, desenvolver, manter, testar e avaliar software de computador.</p>
+        </div>
+        <div class="facilities-col">
+            <a href="web"><img src="/images/Programador WEB.jpg"></a>
+            <h3>Programador WEB</h3>
+            <p>Esse profissional é responsável por desenvolver sites, portais e aplicações relacionadas ao ambiente da internet. Geralmente, esses serviços são acessados por meio de um navegador e ficam hospedados em servidores web.</p>
+        </div>
+        <div class="facilities-col">
+            <a href="cloud"><img src="/images/Cloud.jpg"></a>
+            <h3>Cloud Computing</h3>
+            <p>A computação em nuvem é a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e poder de computação, sem gerenciamento ativo direto pelo usuário.</p>
+        </div>
+    </div>
+        
+</section>
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <div class="comment-box">
+                <h3>Deixe um Comentário</h3>
+    
+                <form class="comment-form">
+                    <input type="text" placeholder="Insira seu Nome">
+                    <input type="email" placeholder="Insira seu Endereço de E-mail">
+                    <textarea rows="5" placeholder="Insira seu Comentário"></textarea>
+                    <button type="submit" class="hero-btn  purple-btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+   
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

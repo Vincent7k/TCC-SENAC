@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .city {display:none}
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        {{>partials/header}}
+
+        <div class="text-box">
+            <h1>Referência no Aprendizado de Tecnologia</h1>
+            <p>Somos uma empresa focada em tecnologia, com a ideia de proporcionar conhecimento ao público.</p>
+            <a href="course" class="hero-btn">Nos visite para saber mais!</a>
+        </div>
+
+
+
+    </section>
+
+    <!--Help-->
+
+    <section class="course">
+        <h1>O que nós oferecemos para você?</h1>
+        <p>Acesso a diversas informações relacionadas a tecnologia através de:</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Material de Apoio</h3>
+                <p>Disponibilizamos material de apoio com PDF e livros de forma grátuita.</p>
+            </div>
+            <div class="course-col">
+                <h3>Video Aulas</h3>
+                <p>Diversas video aulas com profissionais que entedem sobre o assunto.(Em breve...)</p>
+            </div>
+            <div class="course-col">
+                <h3>Atualizaões Globais</h3>
+                <p>Fique sabendo sobre as atualizações sobre diversos assuntos relacionados a tecnologia aqui e no mundo todo!(Em breve)</p>
+            </div>
+        </div>
+    
+    </section>
+    <!------ campus ------>
+    <section class="campus">
+        <h1>Nossas sedes globais</h1>
+        <p>Nossas sedes em outros países.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>Londres</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>Nova York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Facilities ------>
+    <section class="facilities">
+        <h1>Nós nos importamos com nossos funcionários!</h1>
+            <p>Sabemos que o lazer precisa estar ligado com o trabalho então nós proporcionamos.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>Livrarias</h3>
+                    <p>Sabemos que hoje em dia todos tem informações na palma da mão, mas também é sempre bom dedicar um tempo a leitura.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Playground</h3>
+                    <p>Nos importamos com o bem estar, então para isso nós proporcionamos atividades físicas, como basquete, volei, etc...</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Cafeteria</h3>
+                    <p>Lugar onde você pode encontrar comida boa e saudável. Onde também se pode passar um tempo de qualidade com os amigos!</p>
+                </div>
+            </div>
+    </section>
+
+    <!----testimonials-->
+    <section class="testimonials">
+        <h1>O que os nossos usuários dizem?</h1>
+        <p>Selecionamos algumas reviwes de pessoas que já utilizaram o nosso site.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="/images/user1.jpg">
+                <div>
+                    <p>Ótima instituição de ensino, com diversos cursos voltados a tecnologia. Materiais completos e de fácil uso</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="/images/user2.jpg">
+                <div>
+                    <p>Muito bom! Estou adorando tudo, o ambiente e professores são fantásticos. A recepção foi maravilhosa!</p>
+                    <h3>David Beyer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---- Call to action ----->
+
+    <section class="cta">
+        <h1>Veja os nossos diversos materiais online<br>De qualquer lugar do mundo!</h1>
+        <a href="contact" class="hero-btn">Nos contate para saber mais</a>
+    </section>
+
+     <!---- Footer ----->
+     <section class="footer">
+        {{>partials/footer}}
+    </section>
+     
+
+
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+      {{>partials/header}}
+
+       <h1>Qualidade de Software</h1> 
+
+    </section 
+   
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/Qualidade.jpg">
+                <h2>O que é Qualidade de Software?</h2>
+                    <br>
+                    <p>Proporcionar aos desenvolvedores e consumidores de software maior conhecimento sobre a qualidade, uma vez que grande parte dos projetos de desenvolvimento ainda precisa evoluir neste aspecto.</p>
+                    <br>
+                    <p>Nos projetos de desenvolvimento de software, que adotam políticas de qualidade, sobretudo quando se deseja buscar mercados externos ou expandir seus clientes internos aumentando a satisfação dos mesmos.</p>
+                    <br>
+                    <p>O conceito da qualidade tem hoje importância fundamental para alavancar a competitividade das empresas. Atualmente, a preocupação com a qualidade deixou de ser um diferencial competitivo e passou a ser um pré-requisito básico para participação no mercado. No setor de software não é diferente. A disseminação do uso do software em todas as áreas, envolvendo monitoração, controle e gestão de funções críticas, tem aumentado consideravelmente a importância da qualidade de software.</p>
+            </div>
+    
+            
+            <div class="blog-right">
+                <h3>Materiais e Apostilas</h3>
+                <div>
+                        <ul>    
+                            <a href="https://drive.google.com/file/d/1R7tq_O6eOJ1CP-yYNB74UxuOHZo_uZvD/view?usp=sharing"><h4>Qualidade de Software - Kátia Lopes Silva</h4></a>
+                            <a href="https://drive.google.com/file/d/1SL8ZCdP-mtz_QEiaNumEiJL4-kpqBuZX/view?usp=sharing"><h4>Qualidade de Software - Cassiane de Fátima dos Santos Bueno</h4></a>
+                            <a href="https://drive.google.com/file/d/1ii_KEW3WhZnTArqc_RQw6MjHtkig127v/view?usp=sharing"><h4>Qualidade de Software - Tiago Altomare</h4></a> 
+                            <a href="https://drive.google.com/file/d/1RmIoOQcvfX64z_hxSDpR3UGldjbIiECo/view?usp=sharing"><h4>Qualidade de Software - Mayb Andrade</h4></a>
+                        </ul>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

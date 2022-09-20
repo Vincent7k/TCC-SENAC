@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Stronger Innovation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        {{>partials/header}}
+
+       <h1>Sobre Nós</h1>
+
+    </section>
+
+   <!------ About us content ------>
+
+   <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Referência no Aprendizado de Tecnologia</h1>
+            <p>Somos 5 alunos com a ideia de transformar o conhecimento á técnologia algo para todos e de forma grátutia. Para que qualquer pessoa com interesse em aprender sobre diversas areas de TI tenha acesso.</p>
+            <a href="course" class="hero-btn purple-btn">Saiba Mais!</a>
+        </div>
+        <div class="about-col">
+            <img src="/images/about.jpg" alt="">
+        </div>
+    </div>
+
+   </section>
+
+
+    <!---- Footer ----->
+    <section class="footer">
+        {{>partials/footer}}
+    </section>
+
+    <!--JavaScript menu-->
+    <script>
+
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<nav>
+    <a href="/"><img src="images/logo copiar.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="course">Cursos</a></li>
+            <li><a href="about">Sobre</a></li>
+            <li><a href="contact">Contato</a></li>
+            <li><button onclick="darkMode()">Darkmode</button></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div>
+  </div>
+  <script>
+    function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+  
